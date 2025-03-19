@@ -1,4 +1,3 @@
-
 const express = require('express');
 const router = express.Router();
 const { Configuration, OpenAIApi } = require('openai');
@@ -11,7 +10,7 @@ const openai = new OpenAIApi(configuration);
 router.post('/chat', async (req, res) => {
   try {
     const { query, weather, location } = req.body;
-    const completion = await openai.createCompletion({
+    const completion = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
       messages: [{
         role: "system",
