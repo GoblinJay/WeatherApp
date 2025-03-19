@@ -11,19 +11,26 @@ function ChatAssistant() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('/api/chat', {
+      if (!weatherData || !location) {
+        setResponse("Please search for a location first.");
+        return;
+      }
+      const res = await fetch('http://0.0.0.0:3001/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           query,
           weather: weatherData,
-          location: location?.name,
-          apiKey: import.meta.env.VITE_OPENAI_API_KEY  // Accessing OpenAI API Key
+          location: location?.name
         })
       });
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`);
+      }
       const data = await res.json();
-      setResponse(data.response);
+      setResponse(data.response || "No response from assistant");
     } catch (error) {
+      setResponse(`Error: ${error.message}`);
       console.error('Chat error:', error);
     }
   };
