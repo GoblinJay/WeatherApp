@@ -1,16 +1,16 @@
+
 const express = require('express');
 const router = express.Router();
-const { Configuration, OpenAIApi } = require('openai');
+const OpenAI = require('openai');
 
-const configuration = new Configuration({
+const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
-const openai = new OpenAIApi(configuration);
 
 router.post('/chat', async (req, res) => {
   try {
     const { query, weather, location } = req.body;
-    const completion = await openai.createChatCompletion({
+    const completion = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
       messages: [{
         role: "system",
@@ -20,7 +20,7 @@ router.post('/chat', async (req, res) => {
         content: query
       }]
     });
-    res.json({ response: completion.data.choices[0].message.content });
+    res.json({ response: completion.choices[0].message.content });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
