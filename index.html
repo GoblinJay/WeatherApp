@@ -3,30 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Advanced Weather App</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Weather App</h1>
-        <div class="input-section">
-            <input type="text" id="locationInput" placeholder="Enter location">
-            <button id="searchButton">Search</button>
-        </div>
-        <div id="weatherSection">
-            <h2 id="locationName"></h2>
-            <div class="weather-info">
-                <div class="weather-icon">
-                    <img src="images/icon.png" alt="Weather Icon" id="weatherIcon">
-                </div>
-                <div class="temperature">
-                    <p id="temperatureValue"></p>
-                    <span id="temperatureUnit"></span>
-                </div>
-                <p id="weatherDescription"></p>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
