@@ -1,5 +1,5 @@
-const apiKey =  `42834dd289004b0786c13825231707`;
-const apiUrl =  `https://api.weatherapi.com/v1/current.json`;
+const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+const apiUrl = `https://api.weatherapi.com/v1/current.json`;
 
 const locationInput = document.getElementById('locationInput');
 const searchButton = document.getElementById('searchButton');

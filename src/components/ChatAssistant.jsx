@@ -17,7 +17,8 @@ function ChatAssistant() {
         body: JSON.stringify({
           query,
           weather: weatherData,
-          location: location?.name
+          location: location?.name,
+          apiKey: import.meta.env.VITE_OPENAI_API_KEY  // Accessing OpenAI API Key
         })
       });
       const data = await res.json();
