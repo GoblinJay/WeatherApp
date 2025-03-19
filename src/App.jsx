@@ -10,7 +10,7 @@ import { WeatherProvider } from './context/WeatherContext';
 function App() {
   return (
     <WeatherProvider>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{ py: 2 }}>
         <Grid container spacing={3} sx={{ py: 4 }}>
           <Grid item xs={12} md={8}>
             <WeatherDashboard />
