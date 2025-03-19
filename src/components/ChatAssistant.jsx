@@ -15,7 +15,7 @@ function ChatAssistant() {
         setResponse("Please search for a location first.");
         return;
       }
-      const res = await fetch('http://0.0.0.0:3001/api/chat', {
+      const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
