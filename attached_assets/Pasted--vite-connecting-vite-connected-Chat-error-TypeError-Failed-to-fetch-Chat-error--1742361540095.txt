@@ -1,0 +1,36 @@
+[vite] connecting...
+[vite] connected.
+Chat error: 
+TypeError {}
+
+Failed to fetch
+Chat error: 
+TypeError {}
+message: "Failed to fetch"
+stack: "TypeError: Failed to fetch↵ at window.fetch (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)↵ at handleSubmit (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/src/components/ChatAssistant.jsx:33:25)↵ at processDispatchQueue (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:11577:19)↵ at https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:11988:11↵ at batchedUpdates$1 (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:2539:42)↵ at dispatchEventForPluginEventSystem (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:11683:9)↵ at dispatchEvent (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:14608:13)↵ at dispatchDiscreteEvent (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:14589:62)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+Failed to fetch
+at window.fetch (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+at handleSubmit (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/src/components/ChatAssistant.jsx:33:25)
+at processDispatchQueue (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:11577:19)
+at https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:11988:11
+at batchedUpdates$1 (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:2539:42)
+at dispatchEventForPluginEventSystem (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:11683:9)
+at dispatchEvent (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:14608:13)
+at dispatchDiscreteEvent (https://0ecc2a1b-3743-4a67-81ec-7d989a69942d-00-2p2pb6xkinjnw.janeway.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=f6e855cd:14589:62)
+California
+
+California City
+7.4°C
+Clear
+7-Day Forecast
++
+−
+ Leaflet | © OpenStreetMap contributors
+Weather Assistant
+testing
+
+Error: Failed to fetch
