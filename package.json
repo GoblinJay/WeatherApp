@@ -19,6 +19,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "chart.js": "^4.4.8",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "leaflet": "^1.9.4",
     "openai": "^4.87.4",
