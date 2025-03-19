@@ -1,0 +1,56 @@
+/**
+ * GITHUB COPILOT SUPER PROMPT:
+ *
+ * I'm building an advanced weather application that needs to impress recruiters.
+ *
+ * Here are the core requirements and "wow" features I'd like Copilot to generate code for:
+ * 
+ * 1) **Real-time Weather Data & Forecasts**:
+ *    - Fetch current weather and 5- to 7-day forecast data from a public API (e.g., OpenWeatherMap).
+ *    - Display the weather data in a clean, responsive UI.
+ *
+ * 2) **AI/Chat Assistant Integration**:
+ *    - Add an AI-powered chat feature (e.g., an OpenAI GPT-based assistant).
+ *    - The assistant can answer questions like "Will it rain today?", "What should I wear?", "Is it good weather for hiking?" 
+ *    - Provide location-specific suggestions (e.g., "Best time to go running").
+ *
+ * 3) **Data Visualization**:
+ *    - Use a chart library (e.g., Chart.js) to show temperature trends, precipitation probability, etc.
+ *    - Include interactive or hover-over details for forecast data.
+ *
+ * 4) **Personalized Recommendations & Notifications**:
+ *    - Offer suggestions based on forecast (e.g., "Carry an umbrella", "Expect heavy winds").
+ *    - Add optional push notifications or alerts if severe weather is detected.
+ *
+ * 5) **Geolocation & Maps**:
+ *    - Integrate a map component that shows the user’s location.
+ *    - Optionally show markers for interesting outdoor spots or upcoming weather fronts.
+ *
+ * 6) **Implementation Details**:
+ *    - Make it a React (or Next.js) front end. (Feel free to create new files/components.)
+ *    - If needed, create a Node.js or Express backend that handles API calls securely and interacts with the AI.
+ *    - Store API keys in environment variables (like .env).
+ *    - Show me how to manage state, handle async requests, etc.
+ *
+ * 7) **Clean, Modern UI**:
+ *    - Propose or generate modern, minimal CSS/styling.
+ *    - Provide clear layout with a main dashboard area, a chat/assistant area, and a forecast chart area.
+ *
+ * 8) **Testing & Deployment**:
+ *    - Suggest or generate test examples (Jest or React Testing Library).
+ *    - Provide tips for deployment (e.g., Vercel, Netlify, or a Docker setup).
+ *
+ * Please generate well-structured, commented code that demonstrates best practices, so I can showcase:
+ * - My ability to integrate multiple APIs
+ * - My front-end skill (React hooks, UI design)
+ * - My AI integration (e.g., GPT endpoints)
+ * - My data viz with charts
+ * - My code clarity and maintainability
+ *
+ * Next steps:
+ * - Create placeholders or stubs for each major feature so I can fill in the details.
+ * - Feel free to define React components, routes, or functions to fetch weather data, handle AI chat, etc.
+ * - Provide example code for hooking up the AI chat with an OpenAI-like API key (without exposing the key).
+ *
+ * Let's begin building this advanced weather app with the above features in mind!
+ */
